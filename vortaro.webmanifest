@@ -1,7 +1,7 @@
 {
-  "name": "Reta Esperanto-Taja Vortaro",
-  "short_name": "พจนานุกรมเอส-ไทย",
-  "description": "พจนานุกรมเอสเปรันโต-ไทย Reta Esperanto-Taja Vortaro",
+  "name": "Reta Esperanto-Taja Vortaro PWA",
+  "short_name": "พจนานุกรมเอส-ไทย PWA",
+  "description": "พจนานุกรมเอสเปรันโต-ไทย Reta Esperanto-Taja Vortaro PWA",
   "display": "fullscreen",
   "icons": [
     {
@@ -16,5 +16,5 @@
     }
   ],
   "background_color": "green",
-  "start_url": "/index.html"
+  "start_url": "https://warut92.github.io/vortaro-pwa/index.html"
 }
