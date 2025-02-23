@@ -2,7 +2,7 @@ self.addEventListener('install', (e) => {
   console.log("Instalita!")
   e.waitUntil(
     caches.open('vortaro-dosieraro').then((cache) => cache.addAll([
-      '/index.html',
+      'vortaro-pwa/index.html',
       'https://vortaro.warut.net/eotajpu.js',
       'https://vortaro.warut.net/skripto.js',
       'https://vortaro.warut.net/eoth-vortaro.js',
