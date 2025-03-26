@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <!-- <link rel="manifest" href="manifest.json" /> -->
-  <link rel="manifest" href="vortaro.webmanifest">
+  <!-- <link rel="manifest" href="vortaro.webmanifest"> -->
   <meta name="description" content="พจนานุกรมเอสเปรันโต-ไทย Esperanto - Taja Interreta Vortaro">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://vortaro.warut.net/ikono/android/android-launchericon-48-48.png">
-  <title>พจนานุกรมเอสเปรันโต-ไทย</title>
+  <title>พจนานุกรมเอสเปรันโต-ไทย - PWA</title>
   <link rel="stylesheet" href="https://vortaro.warut.net/stilo.css">
   <script
   type="text/javascript"
@@ -17,13 +17,16 @@
 </head>
 <body>
 
-<div id="titolo"> พจนานุกรมเอสเปรันโต-ไทย (beta) - pwa</div>
+<div id="titolo"> พจนานุกรมเอสเปรันโต-ไทย (beta) PWA</div>
 <a href="https://vortaro.warut.net/pri.html"><pre id="statistiko"></pre></a>
 <script  src="https://vortaro.warut.net/lasta_sxangxo.js"></script>
 <input id="checkbox" type="checkbox" onclick="sercxi()">
-<label id="sercxoLingvo">kapvorto</label><br>
-<input id="enigo" name="via_ujo" oninput="sercxi()" onfocus="sercxi()"></input>
-<button id="forigi" onclick="forigi()">⌫</button>
+<label id="sercxoLingvo">kapvorto</label>
+<input id="checkbox" type="checkbox" onclick="tujsercxi()" />
+<label id="sercxoLingvo">PIV</label>
+<button id="hazardilo"  onclick="hazardaVorto()">↻ hazarda</button><br>
+<input class="enigo" id="enigo" name="via_ujo" oninput="sercxi();PIVtujsercxi()" onfocus="sercxi()"></input>
+<button id="forigi" onclick="forigi()">⌫</button><br>
 <span id="aliaj-fontoj"></span>
 <script>
 type="text/javascript">
@@ -36,12 +39,15 @@ function forigi() {
   document.getElementById("enigo").focus()
 }
 </script>
-<div id="preciza_eligo"></div>
+<div id="piv_vortoj"></div>
 <div id="eligo"></div>
 <!-- partial -->
 <div id="tuto" style="display:none"></div>
+<script src="https://vortaro.warut.net/tujsercxo/tujsercxo.js"></script>
+<script src="https://vortaro.warut.net/tujsercxo/piv_vortoj.js"></script>
 <script src="https://vortaro.warut.net/eoth-vortaro.js"></script>
 <script src="https://vortaro.warut.net/skripto.js"></script>
 <script src="https://vortaro.warut.net/aliaj-fontoj.js"></script>
+<script src="https://vortaro.warut.net/hazardilo.js"></script>
 </body>
 </html>

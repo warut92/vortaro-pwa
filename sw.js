@@ -8,6 +8,10 @@ self.addEventListener('install', (e) => {
       'https://vortaro.warut.net/eoth-vortaro.js',
       'https://vortaro.warut.net/stilo.css',
       'https://vortaro.warut.net/lasta_sxangxo.js',
+      'https://vortaro.warut.net/tujsercxo/piv_vortoj.js',
+      'https://vortaro.warut.net/tujsercxo/tujsercxo.js',
+      'https://vortaro.warut.net/aliaj-fontoj.js',
+      'https://vortaro.warut.net/hazardilo.js',
     ])),
   );
 });
