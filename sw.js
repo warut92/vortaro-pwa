@@ -4,14 +4,14 @@ self.addEventListener('install', (e) => {
     caches.open('vortaro-dosieraro').then((cache) => cache.addAll([
       'vortaro-pwa/index.html',
       'https://vortaro.warut.net/eotajpu.js',
-      'https://vortaro.warut.net/skripto.js',
+      'https://vortaro.warut.net/skriptoj/skripto.js',
       'https://vortaro.warut.net/eoth-vortaro.js',
       'https://vortaro.warut.net/stilo.css',
-      'https://vortaro.warut.net/lasta_sxangxo.js',
-      'https://vortaro.warut.net/tujsercxo/piv_vortoj.js',
-      'https://vortaro.warut.net/tujsercxo/tujsercxo.js',
-      'https://vortaro.warut.net/aliaj-fontoj.js',
-      'https://vortaro.warut.net/hazardilo.js',
+      'https://vortaro.warut.net/skriptoj/lasta_sxangxo.js',
+      'https://vortaro.warut.net/skriptoj/tujsercxo/piv_vortoj.js',
+      'https://vortaro.warut.net/skriptoj/tujsercxo/tujsercxo.js',
+      'https://vortaro.warut.net/skriptoj/aliaj-fontoj.js',
+      'https://vortaro.warut.net/skriptoj/hazardilo.js',
     ])),
   );
 });
